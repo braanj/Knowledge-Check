@@ -1,8 +1,22 @@
 {
-  "Question": {
-    "Type": "check",
-    "Body": "How?",
-    "Answers": ["This", "And this"],
-    "Correct": "That!"
-  }
+  "Questions": [
+    {
+      "Type": "check",
+      "Body": "How to find something?",
+      "Answers": [
+        "This",
+        "And this"
+      ],
+      "Correct": "This"
+    },
+    {
+      "Type": "check",
+      "Body": "How?",
+      "Answers": [
+        "This",
+        "And this"
+      ],
+      "Correct": "This"
+    }
+  ]
 }

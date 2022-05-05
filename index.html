@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz | Knwoledge Check</title>
-
   <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
   <header class="page-header">Knwoledge Check</header>
   <section id="quiz">
-    <div id="table">
-      <label for="question">Question N°1:</label>
-      <h2>This is a question?</h2>
-      <div class="answers">
-        <input type="checkbox" name="" id="">
-        <input type="checkbox" name="" id="">
-      </div>
-    </div>
+    <fieldset id="table">
+      <legend>Are you ready to take a quiz?</legend>
+      <input type="button" value="Start quiz" onclick="askQuestion();">
+    </fieldset>
   </section>
+  <script src="/app.js"></script>
 </body>
+
 </html>
