@@ -1,0 +1,8 @@
+{
+  "Question": {
+    "Type": "check",
+    "Body": "How?",
+    "Answers": ["This", "And this"],
+    "Correct": "That!"
+  }
+}
