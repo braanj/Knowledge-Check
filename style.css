@@ -1,4 +1,22 @@
 html, body, h1, h2, h3, h4, h5, h6, input {
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
+}
+.page-header {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+#table {
+  border-radius: .3rem;
+}
+#table .answers .choice, #table input {
+  margin: .2rem 0;
+}
+#table input[type="button"] {
+  color: #fff;
+  background-color: rgb(83, 119, 169);
+  border: none;
+  padding: .3rem .7rem;
+  border-radius: .2rem;
 }
